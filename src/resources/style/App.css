@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.reactMarkDown * {
+    font-family: "Droid Sans Mono Dotted", monospace;
+}
+
+.reactMarkDown h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    word-wrap: break-word;
+}
