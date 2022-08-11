@@ -5,6 +5,6 @@ My Personal blog with React JS
 You can visit my blog at [https://blog.mohamadrishwan.me/](https://blog.mohamadrishwan.me/)
 
 ### TODO
-- [] open source api
-- [] dark mode
-- [] responsive design
+- [ ] open source api
+- [ ] dark mode
+- [ ] responsive design
