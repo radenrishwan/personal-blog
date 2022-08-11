@@ -53,7 +53,7 @@ export const Home = () => {
 
                     <div className="w-full flex justify-center">
                         {loading ? <FontAwesomeIcon icon={faSpinner}
-                            className="fa-spin-pulse text-2xl hover-text-green-400" /> :
+                            className="fa-spin-pulse text-2xl hover:text-green-400" /> :
                             <FontAwesomeIcon icon={faCaretDown} onClick={loadArticle}
                                 className="hover:text-green-400 text-2xl cursor-pointer" />}
                     </div>
