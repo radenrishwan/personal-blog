@@ -34,6 +34,8 @@ export const SearchArticle = () => {
             setLoading(false)
         })
 
+        document.title = `Blog - ${location.state}`
+
         // eslint-disable-next-line
     }, [])
 

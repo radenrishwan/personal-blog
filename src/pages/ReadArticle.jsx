@@ -33,6 +33,7 @@ export const ReadArticle = () => {
             const buffer = Buffer.from(article.content, "base64")
 
             setDate(new Date(parseInt(article.createdAt)))
+            document.title = `Blog - ${article.title}`
             setContent(buffer.toString())
         }
     }, [article])
