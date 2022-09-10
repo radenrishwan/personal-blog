@@ -20,7 +20,7 @@ export default class ArticleRepository {
             }
 
             data.forEach(article => {
-                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.created_at)
+                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.createdAt)
                 articles.push(dummy)
             })
 
@@ -37,7 +37,7 @@ export default class ArticleRepository {
             const data = response.data.data
 
             data.forEach(article => {
-                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.created_at)
+                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.createdAt)
                 articles.push(dummy)
             })
 
@@ -62,7 +62,7 @@ export default class ArticleRepository {
             }
 
             data.forEach(article => {
-                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.created_at)
+                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.createdAt)
                 articles.push(dummy)
             })
 
@@ -84,7 +84,7 @@ export default class ArticleRepository {
             }
 
             data.forEach(article => {
-                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.created_at)
+                const dummy = new Article(article.id, article.thumbnail, article.title, article.description, article.content, article.author, article.category, article.createdAt)
                 articles.push(dummy)
             })
 
@@ -97,6 +97,6 @@ export default class ArticleRepository {
 
         const data = response.data.data
 
-        return new Article(data.id, data.thumbnail, data.title, data.description, data.content, data.author, data.category, data.created_at)
+        return new Article(data.id, data.thumbnail, data.title, data.description, data.content, data.author, data.category, data.createdAt)
     }
 }

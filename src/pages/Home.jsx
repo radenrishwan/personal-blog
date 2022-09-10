@@ -37,7 +37,7 @@ export const Home = () => {
 
     return (
         <>
-            <NavigationBar />
+            <NavigationBar onSearchArticle={() => console.log("test")} />
             <div className="container mx-auto px-[8rem] flex flex-column justify-start items-start mt-[6rem]">
                 <div className="basis-9/12 flex flex-col gap-10 pr-10 w-[50vw]">
                     {
